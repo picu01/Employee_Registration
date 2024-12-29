@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Registration</title>
+   <!-- <style> 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style> -->
+</head>
+<body>
+    
+    <h1>Employee Details</h1>
+        <form action="URL" method="post">
+            <!-- Employee Name -->
+            
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <!-- Email -->
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password -->
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required>
+            <br><br>
+
+            <!-- Gender -->
+            
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            <br><br>
+
+            <!-- Date of Birth -->
+            
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Department -->
+            
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                    <option value="I.T.">I.T.</option>
+                    <option value="C.s.">C.S.</option>
+                    <option value="Other">Other</option>
+                </select>
+            <br><br>
+
+            <!-- Address -->
+            
+                <label for="add">Address:</label>
+                <textarea id="add" name="add" rows="2" placeholder="Enter your address"></textarea>
+            <br><br>
+
+            <!-- Phone Number -->
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br><br>
+
+            <!-- Submit Button -->
+            
+                <button type="submit">Register</button>
+            
+        </form>
+    
+</body>
+</html>
